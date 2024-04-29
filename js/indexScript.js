@@ -6,9 +6,9 @@ function getUnP() {
     if(username === "wss" && password === "passwss") {
         window.location.replace("residentSignIn.html");
     } else if(username == "staff1" && password === "passstaff1"){
-        window.location.replace("staffPage1.html");
+        window.location.replace("staffPage.html");
     } else if(username == "staff2" && password === "passstaff2"){
-        window.location.replace("staffPage2.html");
+        window.location.replace("staffPage.html");
     } else if(username == "sec1" && password === "passsec1"){
         window.location.replace("securityPage1.html");
     } else {
