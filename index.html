@@ -1,0 +1,42 @@
+<html>
+    <!--
+        TODO:
+        1. Sign in page
+        2. Resident Sign in Page
+            DONE 2.1 will make a positive ping when correct user is signed in
+            DONE 2.2 will make an error noise when incorrect user signs in
+            2.3 add avatar image
+        3. Staff page
+            3.1 show page with list of users that have signed in (correctly and incorrectly).
+            3.2 table with all the current residents.
+            3.3 ability to filter the page.
+            3.4 ability to add, delete, and modify user
+        4.Security Page
+            4.1 show page with list of users that have signed in (correctly an incorrectly).
+            4.2 ability to filter the page.
+    -->
+    <head>
+        <link rel="stylesheet" href="CSS/indexStyle.css">
+    </head>
+    <body>
+        <form>
+            <div class="imgcontainer">
+              <img src="img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+          
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" id="usName" required>
+            </br>
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" id="pWord" required>
+            </br> </br>
+              <button type="button" onclick="getUnP()">Login</button>
+            </div>
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" class="cancelbtn">Cancel</button>
+            </div>
+          </form>
+          <script src="js/indexScript.js" defer></script>
+    </body>
+</html>

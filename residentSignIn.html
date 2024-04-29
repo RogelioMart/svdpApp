@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/residentSignInStyle.css">
+    </head>
+    <body>
+        <form>
+            <div class="imgcontainer">
+              <img src="img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+          
+            <div class="container">
+              <label for="uname"><b>Username *</b></label>
+              <input type="text" placeholder="Enter Your Name" name="uname" id="resUser" required>
+
+              <label for="bedNum"><b>Bed # *</b></label>
+              <input type="text" placeholder="Enter Your Bed #" name="bedNum" id="resBed" required>
+
+              <label for="reason"><b>Reason *</b></label>
+              <input type="text" placeholder="Reason For Leaving" name="reason" id="reason" required>
+           
+              <button type="button" onclick="signInRes()">Sign In</button>
+            </div>
+          
+            <div class="container" style="background-color:#f1f1f1">
+            </div>
+          </form>
+          <script src="js/residentScript.js" defer></script>
+    </body>
+</html>
